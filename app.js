@@ -6,7 +6,7 @@ window.onload = function(){
     form.addEventListener("click", function(e){    
       dialog.classList.remove("d-none");
       fields.forEach(function(field){
-        field.style.backgroundColor = "#f8d7da";
+        field.style.backgroundColor = "black";
       });
     });
   
